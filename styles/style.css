@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* banner */
+
+.banner{
+    background-color: antiquewhite;
+    padding: 28px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar{
+    padding-top: 24px;
+}
+
+nav > ul{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    
+   
+}
+
+ul > li{
+   list-style: none; 
+   padding: 10px;
+}
+
+.banner-text{
+    justify-content: center;
+    text-align: center;
+}
+
+.title{
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.pera-text{
+    color: gray;
+}
+
+.btn{
+    background-color: rgba(238, 106, 62, 0.919);
+    padding: 20px 35px;
+    font-size: 18px;
+    border: none;
+    margin: 5px;
+    color: white;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-top: 22px;
+}
+
+/* main-body */
+
+.main-text-1{
+    display: flex;
+    gap: 80px;
+    justify-content: center;
+    margin-top: 70px;
+}
+
+.img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.text{
+    justify-content: center;
+    padding-top: 200px;
+}
+
+.main-head{
+    color: rgb(139, 134, 134);
+}
+
+.head-1{
+    color: black;
+}
+.head-2{
+    color: rgba(238, 106, 62, 0.919);
+}
+
+/* section-2 */
+
+.main-text-2{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 120px;
+}
+
