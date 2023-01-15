@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /* banner */
@@ -40,10 +41,16 @@ ul > li{
 .title{
     font-weight: 700;
     font-size: 55px;
+    padding-top: 120px;
+    padding-bottom: 39px;
 }
 
 .pera-text{
     color: gray;
+}
+
+.banner-img{
+    width: 100%;
 }
 
 .btn{
@@ -55,7 +62,8 @@ ul > li{
     color: white;
     border-radius: 10px;
     font-weight: 600;
-    margin-top: 22px;
+    margin-top: 27px;
+    margin-bottom: 32px;
 }
 
 /* main-body */
@@ -71,6 +79,7 @@ ul > li{
 }
 
 .img{
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 15px;
@@ -83,6 +92,7 @@ ul > li{
 
 .main-head{
     color: rgb(139, 134, 134);
+    padding-bottom: 24px;
 }
 
 .head-1{
@@ -99,8 +109,22 @@ ul > li{
     justify-content: center;
     gap: 70px;
     margin-top: 120px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
+.f{
+    margin-top: 22px;
+    margin-bottom: 10px;
+}
+
+.sec-2{
+    margin-left: 680px;
+    margin-top: -40px;
+    font-size: 30px;
+    padding-top: 28px;
+    padding-bottom: 40px;
+}
 /* section-3 */
 
 
@@ -119,4 +143,72 @@ ul > li{
     border: 2px solid rgba(238, 106, 62, 0.919);
     padding: 33px 33px 33px 33px;
     border-radius: 5px;
+}
+
+/* section-4 */
+
+.sec-4-title{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.sec-4-head{
+    padding-bottom: 12px;
+    font-weight: 700;
+    font: 600px;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 18px;
+    padding-top: 18px;
+}
+
+
+/* footer  */
+
+.footer{
+    background-color: bisque;
+    margin-top: 120px;
+    margin-bottom: 220px;
+    margin-left: 110px;
+    margin-right: 110px;
+    border-radius: 10px;
+}
+
+.footer-text{
+    text-align: center;
+    font-size: 20px;
+    padding: 35px 0px 35px 0px;
+}
+
+/* phone responsive */
+
+@media only screen and (max-width:576px) {
+    .main-text-1{
+        flex-direction: column;
+    }
+    
+    .img{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .main-text-2{
+        flex-direction: column-reverse;
+    }
+
+    .sec-img{
+        width: 40px;
+        height: 50%;
+    }
+
+    .img-1{
+        flex-direction: column;
+    }
+
+    .logo{
+        flex-direction: column;
+        margin: 10px;
+    }
 }
