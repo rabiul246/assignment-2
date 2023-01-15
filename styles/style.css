@@ -60,6 +60,9 @@ ul > li{
 
 /* main-body */
 
+/* section-1 */
+
+
 .main-text-1{
     display: flex;
     gap: 80px;
@@ -98,3 +101,22 @@ ul > li{
     margin-top: 120px;
 }
 
+/* section-3 */
+
+
+.sec-3-text{
+    margin-left: 150px;
+}
+
+.img-1{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 100px;  
+}
+
+.img-text{
+    text-align: center;
+    border: 2px solid rgba(238, 106, 62, 0.919);
+    padding: 33px 33px 33px 33px;
+    border-radius: 5px;
+}
